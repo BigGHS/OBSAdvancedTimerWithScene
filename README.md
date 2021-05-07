@@ -48,5 +48,8 @@ Hotkeys can be set for starting/stopping and to the reset timer.
 **Amendments to the original**
 
 I have added the following functionality to the script
-1. The ability to select a "Next Scene" which will be set in OBS when the timer expires (countdown types only). This option overrides the "Final Text" input
-2. 
+1. The ability to select a "Next Scene" which will be set in OBS when the timer expires (countdown types only). The scene list is populated from OBS. If selected (i.e. not "", or "-----", this option overrides the "Final Text" input
+2. Added a "Starting Text" field for the modes that count down
+3. Amended the description "Countdopwn final text" to "Final Text"
+4. Added "Recording Time: " and "Streaming Time: " text to the elapsed time for these modes. The Countup timer still only reflects the elapsed time
+5. When in the modes that count down, "Start Text" is added to the time field before the timer expires and the Stop Text" is added to the time text after the timer expires (when "Countup when done" is selected), otherwse only "Stop Text"
