@@ -1,8 +1,8 @@
 # OBSAdvancedTimer
 
 This is a fork of the .lua script by cg2121 (Clayton Groenewald), obs-advanced-timer, https://github.com/cg2121/obs-advanced-timer
-
-***Original Text by cg2121***
+```
+**Original Text by cg2121**
 
 This is a Lua script for OBS Studio that sets a text source as a timer with advanced options.  
 
@@ -18,6 +18,7 @@ This is a Lua script for OBS Studio that sets a text source as a timer with adva
 **Formatting**  
 The default format is: %HH:%mm:%ss (00:00:00)  
 
+```
 ```
 %d - days
 %hh - hours with leading zero (00..23)
@@ -35,7 +36,6 @@ The default format is: %HH:%mm:%ss (00:00:00)
 %t - tenths
 %2t - hundredths
 %3t - thousandths
-```
 
 **Activation Modes**  
 - Global (the timer is always active)  
@@ -44,3 +44,4 @@ The default format is: %HH:%mm:%ss (00:00:00)
 
 **Hotkeys**  
 Hotkeys can be set for starting/stopping and to the reset timer.
+```
