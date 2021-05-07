@@ -48,7 +48,7 @@ Hotkeys can be set for starting/stopping and to the reset timer.
 **Amendments to the original**
 
 I have added the following functionality to the script
-1. The ability to select a "Next Scene" which will be set in OBS when the timer expires (countdown types only). The scene list is populated from OBS. If selected (i.e. not "", or "-----", this option overrides the "Final Text" input. The code for the "Next Scene" functionality was derived from the work of OBS user [EmbodiedWisdomToday](https://obsproject.com/forum/members/embodywisdomtoday.239249/) and his lua script [Countdown Timer with optional next scene 012](Countdown Timer with optional next scene 012)
+1. The ability to select a "Next Scene" which will be set in OBS when the timer expires (countdown types only). The scene list is populated from OBS. If selected (i.e. not "", or "-----", this option overrides the "Final Text" input. The code for the "Next Scene" functionality was derived from the work of OBS user [EmbodiedWisdomToday](https://obsproject.com/forum/members/embodywisdomtoday.239249/) and his lua script [Countdown Timer with optional next scene 012](https://obsproject.com/forum/resources/countdown-timer-with-optional-next-scene.978/updates#resource-update-3081)
 2. Added a "Starting Text" field for the modes that count down
 3. Amended the description "Countdown final text" to "Final Text"
 4. Added "Recording Time: " and "Streaming Time: " text to the elapsed time for these modes. It is hard-coded in the script but easily editable. The Countup timer still only reflects the elapsed time.
