@@ -16,10 +16,8 @@ This is a Lua script for OBS Studio that sets a text source as a timer with adva
 - With the countdown modes, there is an option to countup when the countdown is finished
 
 **Formatting**  
-The default format is: %HH:%mm:%ss (00:00:00)  
+The default format is: %HH:%mm:%ss (00:00:00)
 
-```
-```
 %d - days
 %hh - hours with leading zero (00..23)
 %h - hours (0..23)
@@ -46,3 +44,9 @@ The default format is: %HH:%mm:%ss (00:00:00)
 **Hotkeys**  
 Hotkeys can be set for starting/stopping and to the reset timer.
 ```
+
+**Amendments to the original**
+
+I have added the following functionality to the script
+1. The ability to select a "Next Scene" which will be set in OBS when the timer expires (countdown types only). This option overrides the "Final Text" input
+2. 
