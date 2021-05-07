@@ -1,4 +1,4 @@
-# OBSAdvancedTimer
+# OBSAdvancedTimerWithSCene
 
 This is a fork of the .lua script by cg2121 (Clayton Groenewald), obs-advanced-timer, https://github.com/cg2121/obs-advanced-timer
 ```
