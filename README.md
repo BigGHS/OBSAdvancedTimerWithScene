@@ -39,7 +39,8 @@ The default format is: %HH:%mm:%ss (00:00:00)
 
 **Activation Modes**  
 - Global (the timer is always active)  
-- Start timer on activation (starts timer when source is activated, such as when switching to a scene with that source or turning the visibility of the source to on)  
+- Start timer on activation (starts timer when source is activated, such as when switching to 
+  a scene with that source or turning the visibility of the source to on)  
 
 
 **Hotkeys**  
