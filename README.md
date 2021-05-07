@@ -2,7 +2,7 @@
 
 This is a fork of the .lua script by cg2121 (Clayton Groenewald), obs-advanced-timer, https://github.com/cg2121/obs-advanced-timer
 
-**Original Text by cg2121**
+***Original Text by cg2121***
 
 This is a Lua script for OBS Studio that sets a text source as a timer with advanced options.  
 
