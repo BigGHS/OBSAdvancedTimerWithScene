@@ -1,6 +1,6 @@
 # OBSAdvancedTimerWithSCene
 
-This is a fork of the .lua script by cg2121 (Clayton Groenewald), obs-advanced-timer, https://github.com/cg2121/obs-advanced-timer
+This is a fork of the .lua script by [cg2121 (Clayton Groenewald)](https://github.com/cg2121), [obs-advanced-timer](https://github.com/cg2121/obs-advanced-timer)
 ```
 **Original Text by cg2121**
 
@@ -48,7 +48,7 @@ Hotkeys can be set for starting/stopping and to the reset timer.
 **Amendments to the original**
 
 I have added the following functionality to the script
-1. The ability to select a "Next Scene" which will be set in OBS when the timer expires (countdown types only). The scene list is populated from OBS. If selected (i.e. not "", or "-----", this option overrides the "Final Text" input
+1. The ability to select a "Next Scene" which will be set in OBS when the timer expires (countdown types only). The scene list is populated from OBS. If selected (i.e. not "", or "-----", this option overrides the "Final Text" input. The code for the "Next Scene" functionality was derived from the work of OBS user [EmbodiedWisdomToday](https://obsproject.com/forum/members/embodywisdomtoday.239249/) and his lua script [Countdown Timer with optional next scene 012](Countdown Timer with optional next scene 012)
 2. Added a "Starting Text" field for the modes that count down
 3. Amended the description "Countdown final text" to "Final Text"
 4. Added "Recording Time: " and "Streaming Time: " text to the elapsed time for these modes. It is hard-coded in the script but easily editable. The Countup timer still only reflects the elapsed time.
